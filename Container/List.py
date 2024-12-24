@@ -60,3 +60,19 @@ arr.pop(i)
 print(arr)
 del(arr[0])
 print(arr)
+# index
+al = list(('a','b','c','d'))
+print(al)
+try:
+    i = al.index('q')
+except ValueError:
+    print("Not Found")
+
+#Slice in List " : "
+org_list = list((1,2,3,4,5,6,7,8,9))
+print(org_list)
+n_list = org_list[1:9:2] + org_list[0:9:2]
+print(n_list)
+#reversing 
+n_list = org_list[::-1]
+print(n_list)
