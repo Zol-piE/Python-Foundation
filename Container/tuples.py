@@ -32,3 +32,10 @@ t1 = "GFG"
 for i in range(n):
     t1 = (t1,)
     print(t1)
+
+#Adding Elements Using List 
+tNum = 1,2,3
+lNum = list(tNum)
+lNum.append(5)
+tNum = tuple(lNum)
+print(tNum)
