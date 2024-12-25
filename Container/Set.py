@@ -51,3 +51,5 @@ try:
     Name.remove("tomal")
 except KeyError:
     print("not Found")
+
+Name.discard()
