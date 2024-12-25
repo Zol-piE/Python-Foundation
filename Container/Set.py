@@ -32,3 +32,22 @@ print(num2)
 print(num & num2)
 print(num-num2) 
 print(num2-num)
+#iterate through set
+for elem in num:
+    print(elem,end=" ")
+print()
+
+#pop() - remove() - discard()
+num = {2,5,7,8,1}
+l = len(num)
+for i in range(l):
+    print(num.pop(),end=" ") #removes an arbitary numbers
+
+Name = {"tomal","tonu","ratul"}
+print(Name)
+Name.remove("tomal") #raise if elem not present
+print(Name)
+try:
+    Name.remove("tomal")
+except KeyError:
+    print("not Found")
