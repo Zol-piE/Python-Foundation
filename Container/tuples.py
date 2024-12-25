@@ -20,3 +20,15 @@ even = 2,4,6,8
 odd = 3,5,7,9
 num = even+odd
 print(num)
+#Concatenation
+t1 = 10,20,30,40
+t2 = 11,22,33,44
+t1 = t1+t2
+print(t1)
+t1 = (t1,t2)
+print(t1)
+n =5
+t1 = "GFG"
+for i in range(n):
+    t1 = (t1,)
+    print(t1)
